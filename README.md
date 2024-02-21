@@ -60,5 +60,5 @@ solved_board = assignments_to_sudoku_board(assignment, 9)
 # Display the solved Sudoku board
 print(solved_board)
 
-## Testing
+**## Testing**
 The test.py file contains test cases created by me and MIT 6.101 course staff. The server.py file can be run to play a sudoku game
