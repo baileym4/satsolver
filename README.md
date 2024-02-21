@@ -32,6 +32,10 @@ This Python script is designed to solve Sudoku puzzles using the SAT (Boolean Sa
 **Purpose:** Converts a satisfying assignment to a Sudoku board.
 
 
+## Testing ##
+The test.py file contains test cases created by me and MIT 6.101 course staff. The server.py file can be run to play a sudoku game
+
+
 ## Usage Example
 
 ```python
@@ -60,5 +64,4 @@ solved_board = assignments_to_sudoku_board(assignment, 9)
 # Display the solved Sudoku board
 print(solved_board)
 
-**## Testing**
-The test.py file contains test cases created by me and MIT 6.101 course staff. The server.py file can be run to play a sudoku game
+
