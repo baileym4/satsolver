@@ -8,37 +8,29 @@ This Python script is designed to solve Sudoku puzzles using the SAT (Boolean Sa
 
 **Purpose:** Updates the CNF formula based on a given assignment.
 
-**Usage:** `update_formula(formula, assignment)`
-
 ### `satisfying_assignment`
 
 **Purpose:** Finds a satisfying assignment for a given CNF formula.
-
-**Usage:** `satisfying_assignment(formula)`
 
 ### `row_helper`, `col_helper`, `sub_grid_helper`
 
 **Purpose:** Generate CNF rules for rows, columns, and subgrids, respectively, in a Sudoku board.
 
-**Usage:** `row_helper(sudoku_board)`, `col_helper(sudoku_board)`, `sub_grid_helper(sudoku_board)`
 
 ### `initial_conditions_helper`
 
 **Purpose:** Create CNF rules based on initial conditions (pre-filled values) in a Sudoku board.
 
-**Usage:** `initial_conditions_helper(sudoku_board)`
 
 ### `sudoku_board_to_sat_formula`
 
 **Purpose:** Generates a SAT formula that represents a solution to the given Sudoku board.
 
-**Usage:** `sudoku_board_to_sat_formula(sudoku_board)`
 
 ### `assignments_to_sudoku_board`
 
 **Purpose:** Converts a satisfying assignment to a Sudoku board.
 
-**Usage:** `assignments_to_sudoku_board(assignments, n)`
 
 ## Usage Example
 
