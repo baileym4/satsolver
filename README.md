@@ -4,6 +4,8 @@ This Python script is designed to solve Sudoku puzzles using the SAT (Boolean Sa
 
 ## Functionality
 
+## All of the main code is located in the lab.py file. The following functions can be found there.
+
 ### `update_formula`
 
 **Purpose:** Updates the CNF formula based on a given assignment.
